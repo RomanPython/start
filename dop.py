@@ -3,7 +3,7 @@ import random
 koloda = [6,7,8,9,10,2,3,4,11]
 random.shuffle(koloda)
 print('Поиграем в очко?')
-count = 10
+count = 0
 
 while True:
     choice = input('Будете брать карту? y/n\n')
